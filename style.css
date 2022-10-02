@@ -1,0 +1,178 @@
+*{
+    margin: 0 ;
+    padding: 0%;
+}
+
+/* Top-BOX */
+
+#Hero{
+    background-image: url(Profile.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+    opacity: 0.9;
+    margin-bottom: 50px;
+}
+
+#Hero-font-1{
+    font-size: 4rem;
+    font-family: 'Roboto' , sans-serif;
+    color: white;
+    padding: 20px;
+    font-weight: 500;
+}
+
+#Hero-font-2{
+    font-size: 1rem;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.Button{
+    padding: 5px;
+    border:1px solid black;
+    border-radius: 7px;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    font-family: sans-serif ;
+    font-weight: 100;
+}
+
+.Button:hover{
+    color: black;
+    background-color: #e03131;
+    font-weight: bold;
+}
+
+.Button:active{
+    color: white;
+    background-color: #ff6b6b;
+}
+
+/* COntent */
+
+#Main-Content{
+    display:grid;
+    grid-template-columns: 1fr 100px;
+    grid-template-rows: 1fr ;
+    gap: 5px;
+    text-align: center;
+
+    margin-bottom: 50px;
+    
+  
+}
+
+#Content-1{
+    text-align: center;
+   
+    
+}
+
+#Content-1-font-1{
+    font-family: 'Roboto'  , sans-serif;
+    font-size: 1rem;
+    /* font-weight: 300; */
+    font-weight: 400;
+}
+
+
+
+#Content-2{
+    font-size: 1rem;
+ font-family: sans-serif;
+
+}
+
+
+#Photo{
+    width: 100%;
+     border-radius: 20px;
+}
+
+#Content-4{
+   
+    padding: 1px;
+
+    font-size: 10px;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 400;
+}
+
+/* Services */
+
+#Services-navigation{
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.Photo{
+    width: 100%;
+    border-radius: 5px;
+}
+
+#Services-Main{
+    display: flex;
+    gap: 10px ;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.Services-Main-Font{
+    font-size: 1rem;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* footer */
+
+footer{
+    text-align: right;
+}
+
+/* Products.html */
+
+.Top-navigation{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.Main-Product{
+    max-width: 500px;
+    margin: auto;
+  
+}
+
+.Box{
+  
+    display: flex;
+    gap: 5px;
+    justify-self: center;
+    text-align: center;
+    margin-bottom: 20px;
+    /* margin: 20px; */
+    
+    
+}
+
+.Item{
+    border: 1px solid black;
+    
+}
+
+.Photo-item{
+    width: 100%;
+    border-radius: 5px;
+    
+}
+.Products-font{
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Roboto' , sans-serif ;
+    font-weight: 300;
+}
