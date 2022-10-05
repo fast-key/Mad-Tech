@@ -176,3 +176,62 @@ footer{
     font-family: 'Roboto' , sans-serif ;
     font-weight: 300;
 }
+
+/* Services offer */
+
+#Services-offer-Main-box{
+    /* display: flex; 
+    justify-content: center;*/
+
+    display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+  grid-template-rows: 30px 1fr 140px;
+  gap: 5px;
+  /* align-items: center;  pangalahatan*/
+  background-color: #f8f9fa;
+}
+
+.Services-offer-head{
+   grid-column: 2/4;
+   /* background-color: #e03131; */
+   text-align: center;
+   font-size: 1rem;
+   font-family: 'Roboto' , sans-serif;
+   font-weight: 500;
+  
+}
+
+#Service-offer-Model{
+   width: 100%;
+   grid-column: 2 /4;
+   border-radius: 20px;
+ 
+ 
+}
+
+.Header-service{
+    font-size:10px;
+    font-family: 'Roboto' , sans-serif;
+      
+    border: 1px solid #e03131;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+
+   
+  
+   
+}
+
+ul{
+    list-style: none;
+}
+
+.Logocompany{
+    width: 100%;
+
+    border-radius: 2px;
+}
+
+
