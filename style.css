@@ -3,16 +3,21 @@
     padding: 0%;
 }
 
+body{
+    background-color: #3bc9db ;
+}
+
 /* Top-BOX */
 
 #Hero{
     background-image: url(Profile.jpg);
-    height: 500px;
+    height: 100vh;
     background-repeat: no-repeat;
     background-size:cover;
     text-align: center;
     opacity: 0.9;
-    margin-bottom: 50px;
+    border-radius: 10px;
+    /* margin-bottom: 50px; */
 }
 
 #Hero-font-1{
@@ -29,6 +34,7 @@
     font-weight: 300;
     color: white;
     margin-bottom: 30px;
+
 }
 
 .Button{
@@ -53,57 +59,153 @@
     background-color: #ff6b6b;
 }
 
+
+/* #Spcaing-1{ 
+    background-color:#ced4da;
+}*/
+
 /* COntent */
 
-#Main-Content{
-    display:grid;
-    grid-template-columns: 1fr 100px;
-    grid-template-rows: 1fr ;
-    gap: 5px;
-    text-align: center;
+.Content-Heading{
+    font-size: 4rem;
+    font-family: 'ROBOTO' , sans-serif;
+    font-weight: 200;
+    background-color: #3bc9db;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color:#fff;
+}
 
-    margin-bottom: 50px;
+#Main-Content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 100px ;
+    grid-template-rows: 1fr ;
+
+  
+
+    column-gap: 5px;
+    row-gap: 5px
+    ;
+    background-color: #3bc9db;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 20px ;
+ 
+}
+
+#Model5{
+    width: 100%;
+    border-radius: 10px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    align-self: stretch;
+
+  
+  
+}
+.Side{
+    font-size: 1rem;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 500;
+    text-align: center;
+    background-color: #a5d8ff;
+    border-radius: 10px;
+   
+}
+
+#About-us{
+    font-size: 12px;
     
   
 }
+.Photo-Model{
+    width: 100%;
+}
 
-#Content-1{
+.Model2{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Sub-text{
     text-align: center;
+    font-size: 12px;
+    font-family: 'Roboto' ,sans-serif;
+    font-weight: 100;
+}
+
+#Face-book{
+    width: 50%;
+}
+.Face-bookbutton{
+    text-align: center;
+ 
+
+  
+}
+.Face-bookbutton1{
+    color: #fff;
+    padding: 2px;
+    border: 1px solid rgb(255, 0, 0);
+    text-decoration: none;
+    background-color: red;
+    border-radius: 10px;
+
+}
+.Face-bookbutton1:hover{
+    color: black;
+    background-color: #e03131;
+    font-weight: bold;
    
+}
+.Face-bookbutton1:active{
+    color: white;
+    background-color: #ff6b6b;
+  
+}
+#Button-font{
+    font-size: 12px;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 100;
     
 }
 
-#Content-1-font-1{
-    font-family: 'Roboto'  , sans-serif;
+
+#Table-box{
+    background-color: #3bc9db;
     font-size: 1rem;
-    /* font-weight: 300; */
-    font-weight: 400;
-}
-
-
-
-#Content-2{
-    font-size: 1rem;
- font-family: sans-serif;
+    font-family: 'ROBOTO' sans-serif;
 
 }
 
-
-#Photo{
-    width: 100%;
-     border-radius: 20px;
+#HeadingTable{
+    font-size: 3rem;
+    font-family: 'ROBOTO' , sans-serif;
+    font-weight: 200;
+    color: #fff;
 }
 
-#Content-4{
-   
-    padding: 1px;
 
-    font-size: 10px;
-    font-family: 'Roboto' , sans-serif;
-    font-weight: 400;
+table , th ,td {
+    margin: 0 auto;
+    border: 1px solid #070707;
+    border-collapse: collapse;
+    width: 90%;
+    padding: 5px;
+    background-color: #a5d8ff;
+   font-size: 1rem;
+   font-family: 'Roboto' sans-serif;
+   font-weight: 400;
+
 }
 
-/* Services */
+
+footer{
+    text-align: right;
+    background-color: #3bc9db ;
+}
+
+
+/* Services 
 
 #Services-navigation{
     text-align: right;
@@ -129,13 +231,16 @@
     text-align: center;
 }
 
-/* footer */
+*/
+
+/* footer
 
 footer{
     text-align: right;
 }
+ */
 
-/* Products.html */
+/* Products.html 
 
 .Top-navigation{
     margin-top: 10px;
@@ -155,7 +260,7 @@ footer{
     justify-self: center;
     text-align: center;
     margin-bottom: 20px;
-    /* margin: 20px; */
+
     
     
 }
@@ -176,24 +281,23 @@ footer{
     font-family: 'Roboto' , sans-serif ;
     font-weight: 300;
 }
+*/
 
-/* Services offer */
+/* Services offer 
 
 #Services-offer-Main-box{
-    /* display: flex; 
-    justify-content: center;*/
+
 
     display: grid;
   grid-template-columns:1fr 1fr 1fr 1fr;
   grid-template-rows: 30px 1fr 140px;
   gap: 5px;
-  /* align-items: center;  pangalahatan*/
+   align-items: center;
   background-color: #f8f9fa;
 }
 
 .Services-offer-head{
    grid-column: 2/4;
-   /* background-color: #e03131; */
    text-align: center;
    font-size: 1rem;
    font-family: 'Roboto' , sans-serif;
@@ -231,6 +335,41 @@ ul{
 .Logocompany{
     width: 100%;
     border-radius: 2px;
+}
+*/
+
+
+/* ============================== */
+/* =============================== */
+/* ================================== */
+/* Products.html */
+/* ================================== */
+/* =================================== */
+
+
+.Top-navigation{
+    padding: 10px;
+    text-align: right;
+}
+
+.Item-Photo{
+    width: 80%;
+}
+
+.ItemsContainer{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #a5d8ff;
+}
+
+.Item-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+
+ 
+
 }
 
 
